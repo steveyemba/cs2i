@@ -1,0 +1,13 @@
+language : php
+
+before script:
+  - git clone --depth 1 git://github.com/steveyemba/mon-projet.git
+
+script:
+  
+ - composer install
+ - vendor/bin/phpunit
+
+notifications:
+ steveyemba25@gmail.com
+
