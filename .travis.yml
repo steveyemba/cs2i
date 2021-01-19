@@ -1,7 +1,7 @@
 language : php
 
 before script:
-  - git clone --depth 1 git://github.com/steveyemba/mon-projet.git
+  - git clone --depth 1 git://github.com/steveyemba/cs2i.git
 
 script:
   
